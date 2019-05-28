@@ -5,3 +5,7 @@
 ##
 
 
+SELECT strftime("%Y", c23) AS "YEAR", AVG(c21) AS "avg(c21)" FROM
+    tbl2
+GROUP BY
+    strftime("%Y", c23);

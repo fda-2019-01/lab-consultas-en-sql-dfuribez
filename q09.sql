@@ -5,3 +5,8 @@
 ##
 
 
+SELECT * from 
+    tbl2 
+WHERE
+    C21 = (SELECT MIN(c21) from tbl2)
+LIMIT 1;

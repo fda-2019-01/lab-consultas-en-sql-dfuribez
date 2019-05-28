@@ -3,3 +3,4 @@
 ## de la tabla tbl1
 ## 
 
+SELECT SUM(c12) FROM tbl1;
